@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Last of Us</title>
 
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="src/css/style.css">
+   <link rel="stylesheet" href="src/css/reset.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,30 +16,30 @@
 <body>
     <main>
 
-        <div class="carrosel">
-            <img src="src/imagens/tlou-1.webp" alt="Ellie se escondendo em uma árvore segurando um facão">
+        <div class="carrossel">
+            <img class="imagem ativa" src="src/imagens/tlou-1.webp" alt="Ellie se escondendo em uma árvore segurando um facão">
             
-            <img src="src/imagens/tlou-2.webp" alt="Ellie sentada no pé da árvore tocando violão">
+            <img class="imagem" src="src/imagens/tlou-2.webp" alt="Ellie sentada no pé da árvore tocando violão">
             
-            <img src="src/imagens/tlou-3.jpg" alt="Ellie atirando com seu arco-flecha">
+            <img class="imagem" src="src/imagens/tlou-3.jpg" alt="Ellie atirando com seu arco-flecha">
             
-            <img src="src/imagens/tlou-4.webp" alt="Ellie segurando um rifle">
+            <img class="imagem" src="src/imagens/tlou-4.webp" alt="Ellie segurando um rifle">
             
-            <img src="src/imagens/tlou-5.png" alt="Ellie em um cenário vermelho">
+            <img class="imagem" src="src/imagens/tlou-5.png" alt="Ellie em um cenário vermelho">
         </div>
 
 
         <div class="conteudo">
             <div class="informacoes">
-                <img src="src/imagens/logo.png" alt="logo The last Of Us">
+                <img class="logo" src="src/imagens/logo.png" alt="logo The last Of Us">
                 
-                <p>
+                <p class="descricao">
                     "The Last of Us Part II" é a continuação do aclamado jogo criado por Neil Druckmann, lançado exclusivamente para PlayStation. A trama se passa anos após os eventos do primeiro jogo e acompanha Ellie em uma jornada intensa de vingança, dor e questionamentos morais, em um mundo ainda devastado pela pandemia do fungo Cordyceps.
                 </p>
             </div>
             
             <div class="botoes-carrossel">
-                <button class="botao"></button>
+                <button class="botao selecionado"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
                 <button class="botao"></button>
@@ -49,7 +50,7 @@
                 <ul>
                     <li>
                         <a href="https://github.com/Pedro-diSilva" target="_blank">
-                            <img src="src/imagens/github.svg" alt="logo GitHub">
+                            <img src="src/imagens/github.svg" alt="logo GitHub" class="icone">
                         </a>
                     </li>
                 </ul>
